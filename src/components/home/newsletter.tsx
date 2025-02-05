@@ -11,7 +11,7 @@ const HomeNewsLetter: FC = () => {
       <Container>
         <Box
           sx={{
-            backgroundColor: 'secondary.main',
+            backgroundColor: '#F8D90F',
             borderRadius: 10,
             py: { xs: 4, md: 10 },
             px: { xs: 4, md: 8 },
@@ -21,7 +21,7 @@ const HomeNewsLetter: FC = () => {
           <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
             Síguenos en instagram
           </Typography>
-          <Typography sx={{ mb: 6 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
+          <Typography sx={{ mb: 3 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
 
           <Box
             sx={{
@@ -33,7 +33,18 @@ const HomeNewsLetter: FC = () => {
               mx: 'auto',
             }}
           >
-            <StyledButton disableHoverEffect size="large">
+            <StyledButton
+              disableHoverEffect
+              size="large"
+              sx={{
+                backgroundColor: 'secondary', // Cambia el color de fondo aquí
+                color: '#ffffff', // Cambia el color del texto aquí
+                '&:hover': {
+                  backgroundColor: 'white',
+                  color: 'secondary.main', // Cambia el color del hover aquí
+                },
+              }}
+            >
               Síguenos
             </StyledButton>
           </Box>
