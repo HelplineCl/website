@@ -19,9 +19,9 @@ const HomeNewsLetter: FC = () => {
           }}
         >
           <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
-            Subscribe to Our News Letter
+            Síguenos en instagram
           </Typography>
-          <Typography sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
+          <Typography sx={{ mb: 6 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
 
           <Box
             sx={{
@@ -33,24 +33,11 @@ const HomeNewsLetter: FC = () => {
               mx: 'auto',
             }}
           >
-            <InputBase
-              sx={{
-                backgroundColor: 'background.paper',
-                borderRadius: 3,
-                width: '100%',
-                height: 48,
-                px: 2,
-                mr: { xs: 0, md: 3 },
-                mb: { xs: 2, md: 0 },
-              }}
-              placeholder="Enter your Email Address"
-            />
-            <Box>
-              <StyledButton disableHoverEffect size="large">
-                Subscribe
-              </StyledButton>
-            </Box>
+            <StyledButton disableHoverEffect size="large">
+              Síguenos
+            </StyledButton>
           </Box>
+          <Box></Box>
         </Box>
       </Container>
     </Box>

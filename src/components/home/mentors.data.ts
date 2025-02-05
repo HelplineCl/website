@@ -3,50 +3,49 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
-    name: 'Jhon Dwirian',
-    category: 'UI/UX Design',
+    photo: '/images/teachable.jpg',
+    name: 'Teacheble Machine',
+    category: 'Inteligencia Artificial',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Es una herramienta de Google que nos permitió entrenar modelos de aprendizaje automático (machine learning) para pode crear nuestra modelo de inteligencia artificial.',
     company: {
       name: 'Grab',
-      logo: '/images/companies/grab.png',
+      logo: '/images/logo1.png',
     },
   },
   {
     id: 2,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
+    photo: '/images/mitappinventor.png',
+    name: 'Mit App Inventor',
+    category: 'Creación de app',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Esta plataforma de desarrollo de aplicaciones móviles nos sirvió para la creación de la apps en sistema Android sin necesidad de saber programar, usando bloques visuales y de manera sencilla.',
     company: {
-      name: 'Google',
-      logo: '/images/companies/google.png',
+      name: 'Creación de apps',
+      logo: '/images/logo2.png',
     },
   },
   {
     id: 3,
-    photo: '/images/mentors/noah-buscher-8A7fD6Y5VF8-unsplash.jpg',
-    name: 'Nguyễn Thuy',
-    category: 'Android Development',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    photo: '/images/canva.png',
+    name: 'Canva',
+    category: 'Diseño',
+    description: 'Con esta plataforma pudimos crear imágenes, presentaciones, infografías y más.',
     company: {
-      name: 'Airbnb',
-      logo: '/images/companies/airbnb.png',
+      name: 'Diseño',
+      logo: '/images/logo3.png',
     },
   },
   {
     id: 4,
-    photo: '/images/mentors/philip-martin-5aGUyCW_PJw-unsplash.jpg',
-    name: 'Rizki Known',
-    category: 'Fullstack Development',
+    photo: '/images/figma.png',
+    name: 'Figma',
+    category: 'Diseño y experiencia de usuario',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Esta herramienta de diseño de interfaces y prototipado colaborativo nos permitió diseñar, crear el prototipo e iterar sobre interfaces de usuario (UI) en tiempo real, todo en la nube.',
     company: {
-      name: 'Microsoft',
-      logo: '/images/companies/microsoft.png',
+      name: 'Diseño y experiencia de usuario',
+      logo: '/images/logo4.png',
     },
   },
 ]

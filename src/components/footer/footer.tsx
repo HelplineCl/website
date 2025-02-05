@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { FooterNavigation, FooterSocialLinks } from '@/components/footer'
+import Image from 'next/image'
 
 const Footer: FC = () => {
   return (
@@ -15,9 +16,7 @@ const Footer: FC = () => {
         <Grid container spacing={1}>
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
-              <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Coursespace
-              </Typography>
+              <Image src="/images/logoblanco.svg" alt="logo" width={200} height={80} />
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
                 Coursespace is an online learning platform that has been operating since 2018 until now.
               </Typography>

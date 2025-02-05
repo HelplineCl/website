@@ -12,23 +12,23 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Mensajería',
+    description: 'Servicio de mensajería privada entre usuarios',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Perfil personal',
+    description: 'Crea tu perfil como persona o como organización',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Solicitudes',
+    description: 'Crea solicitudes para pedir ayuda y publicalo en el muro',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Control de calidad',
+    description: 'Implementa el uso de inteligencia artificial para detectar si tus donaciones están en buen estado',
     icon: <ContactSupportIcon />,
   },
 ]

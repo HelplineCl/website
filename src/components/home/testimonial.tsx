@@ -78,7 +78,7 @@ const HomeTestimonial: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Testimonial What our{' '}
+              Quiénes somos{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -89,7 +89,7 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                nosotras{' '}
                 <Box
                   sx={{
                     position: 'absolute',
@@ -102,20 +102,17 @@ const HomeTestimonial: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Say
             </Typography>
 
             <StyledSlickContainer>
-              <Slider ref={sliderRef} {...sliderConfig}>
-                {data.map((item, index) => (
-                  <TestimonialItem key={String(index)} item={item} />
-                ))}
-              </Slider>
+              {data.map((item, index) => (
+                <TestimonialItem key={String(index)} item={item} />
+              ))}
             </StyledSlickContainer>
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ width: { xs: '100%', md: '90%' } }}>
-              <Image src="/images/home-testimonial.png" width={520} height={540} quality={97} alt="Testimonial img" />
+              <Image src="/images/girls.png" width={520} height={540} quality={97} alt="Testimonial img" />
             </Box>
           </Grid>
         </Grid>

@@ -30,33 +30,7 @@ const TestimonialItem: FC<Props> = ({ item }) => {
           backgroundColor: 'background.paper',
         }}
       >
-        <Box
-          sx={{
-            borderRadius: '50%',
-            height: 52,
-            width: 52,
-            overflow: 'hidden',
-            mr: 2,
-
-            '& img': {
-              width: '100%',
-            },
-          }}
-        >
-          <Image
-            src={`/images/avatars/${item.user.photo}`}
-            width={100}
-            height={100}
-            quality={97}
-            alt={item.user.name}
-          />
-        </Box>
-        <Box>
-          <Typography variant="h6">{item.user.name}</Typography>
-          <Typography variant="subtitle1" sx={{ color: 'text.secondary' }}>
-            {item.user.professional}
-          </Typography>
-        </Box>
+        <Image src={`/images/avatars/${item.user.photo}`} width={300} height={100} quality={97} alt={item.user.name} />
       </Box>
     </Box>
   )
