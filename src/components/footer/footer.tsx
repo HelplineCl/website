@@ -14,7 +14,7 @@ const Footer: FC = () => {
     >
       <Container>
         <Grid container spacing={1}>
-          <Grid item xs={12} md={5}>
+          <Grid item xs={12}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
               <Image src="/images/logoblanco.svg" alt="logo" width={200} height={80} />
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
@@ -22,9 +22,6 @@ const Footer: FC = () => {
               </Typography>
               <FooterSocialLinks />
             </Box>
-          </Grid>
-          <Grid item xs={12} md={7}>
-            <FooterNavigation />
           </Grid>
         </Grid>
       </Container>
