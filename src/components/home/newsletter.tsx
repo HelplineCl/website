@@ -22,9 +22,7 @@ const HomeNewsLetter: FC = () => {
             Síguenos en instagram
           </Typography>
           <Typography sx={{ mb: 3 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
-          <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-            Síguenos en instagram
-          </StyledButton>
+
           <Box
             sx={{
               display: 'flex',
