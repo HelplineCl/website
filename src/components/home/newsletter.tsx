@@ -1,9 +1,9 @@
 import React, { FC } from 'react'
 import Box from '@mui/material/Box'
-import InputBase from '@mui/material/InputBase'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { StyledButton } from '../styled-button'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow'
 
 const HomeNewsLetter: FC = () => {
   return (
@@ -22,7 +22,9 @@ const HomeNewsLetter: FC = () => {
             Síguenos en instagram
           </Typography>
           <Typography sx={{ mb: 3 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
-
+          <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
+            Síguenos en instagram
+          </StyledButton>
           <Box
             sx={{
               display: 'flex',
@@ -32,22 +34,7 @@ const HomeNewsLetter: FC = () => {
               width: { xs: '100%', md: 560 },
               mx: 'auto',
             }}
-          >
-            <StyledButton
-              disableHoverEffect
-              size="large"
-              sx={{
-                backgroundColor: 'secondary.main', // Cambia el color de fondo aquí
-                color: '#ffffff', // Cambia el color del texto aquí
-                '&:hover': {
-                  backgroundColor: 'white',
-                  color: 'secondary.main', // Cambia el color del hover aquí
-                },
-              }}
-            >
-              Síguenos
-            </StyledButton>
-          </Box>
+          ></Box>
           <Box></Box>
         </Box>
       </Container>
