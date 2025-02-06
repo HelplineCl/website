@@ -37,7 +37,7 @@ const HomeNewsLetter: FC = () => {
               disableHoverEffect
               size="large"
               sx={{
-                backgroundColor: 'secondary', // Cambia el color de fondo aquí
+                backgroundColor: 'secondary.main', // Cambia el color de fondo aquí
                 color: '#ffffff', // Cambia el color del texto aquí
                 '&:hover': {
                   backgroundColor: 'white',
