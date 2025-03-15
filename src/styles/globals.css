@@ -27,6 +27,17 @@ body {
   /* background-color: var(--color-background); */
   background-color: '#fff';
 }
+.contenedor-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f5f5;
+  padding: 100px;
+}
+.video {
+  width: 600px;
+  height: 350px;
+}
 
 @-webkit-keyframes click_animation {
   from {

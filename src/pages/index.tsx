@@ -10,11 +10,13 @@ const DynamicHomePopularCourse = dynamic(() => import('../components/home/popula
 const DynamicHomeTestimonial = dynamic(() => import('../components/home/testimonial'))
 const DynamicHomeOurMentors = dynamic(() => import('../components/home/mentors'))
 const DynamicHomeNewsLetter = dynamic(() => import('../components/home/newsletter'))
+const DynamicHomeVideo = dynamic(() => import('../components/home/video'))
 
 const Home: NextPageWithLayout = () => {
   return (
     <>
       <DynamicHomeHero />
+      <DynamicHomeVideo />
       <DynamicHomeFeature />
       <DynamicHomeTestimonial />
       <DynamicHomePopularCourse />
