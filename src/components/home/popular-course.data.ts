@@ -1,0 +1,58 @@
+import type { Course } from '@/interfaces/course'
+
+export const data: Array<Course> = [
+  {
+    id: 1,
+    cover: '/images/courses/idear.png',
+    title: 'Definimos nuestro tema a tratar',
+    rating: 1,
+    ratingCount: 1,
+    price: 25,
+    category: 'Beginner',
+  },
+  {
+    id: 2,
+    cover: '/images/courses/prototipar.png',
+    title: 'Diseñamos un prototipo y realizamos testeos',
+    rating: 2,
+    ratingCount: 2,
+    price: 20,
+    category: 'Intermediate',
+  },
+  {
+    id: 3,
+    cover: '/images/courses/testear.png',
+    title: 'Aplicamos el feedback de los usuarios en el diseño',
+    rating: 3,
+    ratingCount: 3,
+    price: 30,
+    category: 'Beginner',
+  },
+  {
+    id: 4,
+    cover: '/images/courses/alta.png',
+    title: 'Terminamos de crear nuestro prototipo en alta calidad',
+    rating: 4,
+    ratingCount: 4,
+    price: 30,
+    category: 'Intermediate',
+  },
+  {
+    id: 5,
+    cover: '/images/courses/programar.png',
+    title: 'Comenzamos a programar nuestro aplicación',
+    rating: 4,
+    ratingCount: 5,
+    price: 35,
+    category: 'Intermediate',
+  },
+  {
+    id: 6,
+    cover: '/images/courses/mostrar.png',
+    title: 'Creamos nuestro módelo de IA y las primeras interacciones con HelpLine',
+    rating: 5,
+    ratingCount: 6,
+    price: 35,
+    category: 'Beginner',
+  },
+]
