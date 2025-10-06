@@ -194,7 +194,7 @@ const HomeHero: FC = () => {
                   Tecnovation Girls
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  Somos parte del concurso en su edición 2025.
+                  Proyecto premiado por Technovation Girls 2025
                 </Typography>
               </Box>
             </Box>
