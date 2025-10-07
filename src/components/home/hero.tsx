@@ -146,7 +146,15 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
+                  <StyledButton
+                    color="primary"
+                    size="large"
+                    variant="outlined"
+                    startIcon={<PlayArrowIcon />}
+                    onClick={() =>
+                      window.open('https://www.instagram.com/help_line2025?igsh=MThiaTl5b3drcm5ncw==', '_blank')
+                    }
+                  >
                     Síguenos en instagram
                   </StyledButton>
                 </ScrollLink>
@@ -194,7 +202,7 @@ const HomeHero: FC = () => {
                   Tecnovation Girls
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  Proyecto premiado por Technovation Girls 2025
+                  Proyecto premiado por Technovation Girls
                 </Typography>
               </Box>
             </Box>

@@ -22,7 +22,13 @@ const HomeNewsLetter: FC = () => {
             Síguenos en instagram
           </Typography>
           <Typography sx={{ mb: 3 }}>para estar al tanto y apoyar de nuestro proyecto</Typography>
-          <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
+          <StyledButton
+            color="primary"
+            size="large"
+            variant="contained"
+            startIcon={<PlayArrowIcon />}
+            onClick={() => window.open('https://www.instagram.com/help_line2025?igsh=MThiaTl5b3drcm5ncw==', '_blank')}
+          >
             Síguenos en instagram
           </StyledButton>
           <Box
